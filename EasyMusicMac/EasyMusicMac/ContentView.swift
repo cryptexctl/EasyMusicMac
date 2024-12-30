@@ -35,6 +35,12 @@ struct ContentView: View {
             description: "Музыка всех жанров.",
             streamURL: "http://45.95.234.91:8000/music",
             gradient: [Color.yellow, Color.orange]
+        ),
+        Station(
+            name: "Myschool FM",
+            description: "Полная сборная солянка от красивых и уникальных жанров до рофл гей ремиксов и блатных треков, часто проводятся подкасты на разные темы в прямом эфире от простого общения до политики.",
+            streamURL: "https://stream.zeno.fm/hydtchh8maguv.m3u",
+            gradient: [Color.purple, Color.purple]
         )
     ]
 
